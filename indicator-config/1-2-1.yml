@@ -1,6 +1,6 @@
 ﻿composite_breakdown_label: ''
 computation_units: ''
-copyright: ''
+copyright: Copyright by Lao Statistics Bureau 2021
 data_footnote: ''
 data_non_statistical: false
 data_notice_class: ''
@@ -21,12 +21,12 @@ graph_title: global_indicators.1-2-1-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.1-2-1-title
-indicator_number: '1.2.1'
-national_geographical_coverage: ''
+indicator_number: ''
+national_geographical_coverage: National
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: notstarted
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []
