@@ -11,21 +11,14 @@
       "schema": {
         "fields": [
           {
-            "name": "GeoCode",
-            "type": "number",
-            "title": "GeoCode"
+            "name": "Year",
+            "type": "integer",
+            "title": "ປີ"
           },
           {
-            "name": "OCCUPATION",
+            "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "ແພດຫມໍ",
-                "ພະນັກງານພະຍາບານ"
-              ]
-            },
-            "title": "ອາຊີບ"
+            "title": "SDG Series"
           },
           {
             "name": "REF_AREA",
@@ -38,9 +31,28 @@
             "title": "ເຂດອ້າງອີງ"
           },
           {
-            "name": "SERIES",
+            "name": "URBANISATION",
             "type": "string",
-            "title": "SDG Series"
+            "constraints": {
+              "enum": [
+                "ຕົວເມືອງ",
+                "ຊົນນະບົດ",
+                ""
+              ]
+            },
+            "title": "ລະດັບການເມືອງ"
+          },
+          {
+            "name": "OCCUPATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ແພດຫມໍ",
+                "ພະນັກງານພະຍາບານ",
+                ""
+              ]
+            },
+            "title": "ອາຊີບ"
           },
           {
             "name": "UNIT_MEASURE",
@@ -48,26 +60,14 @@
             "title": "ຫນ່ວຍງານວັດແທກ"
           },
           {
-            "name": "URBANISATION",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "ຊົນນະບົດ",
-                "ຕົວເມືອງ"
-              ]
-            },
-            "title": "ລະດັບການເມືອງ"
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
           }
         ]
       }

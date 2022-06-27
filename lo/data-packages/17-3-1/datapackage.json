@@ -11,9 +11,14 @@
       "schema": {
         "fields": [
           {
-            "name": "GeoCode",
-            "type": "number",
-            "title": "GeoCode"
+            "name": "Year",
+            "type": "integer",
+            "title": "ປີ"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
           },
           {
             "name": "REF_AREA",
@@ -26,24 +31,19 @@
             "title": "ເຂດອ້າງອີງ"
           },
           {
-            "name": "SERIES",
-            "type": "string",
-            "title": "SDG Series"
-          },
-          {
             "name": "UNIT_MEASURE",
             "type": "string",
             "title": "ຫນ່ວຍງານວັດແທກ"
           },
           {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
           }
         ]
       }

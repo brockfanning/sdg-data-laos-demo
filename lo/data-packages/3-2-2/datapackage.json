@@ -11,24 +11,14 @@
       "schema": {
         "fields": [
           {
-            "name": "GeoCode",
-            "type": "number",
-            "title": "GeoCode"
+            "name": "Year",
+            "type": "integer",
+            "title": "ປີ"
           },
           {
-            "name": "INCOME_WEALTH_QUANTILE",
+            "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Quintile 1 (ທຸກຍາກທີ່ສຸດ)",
-                "Quintile 2",
-                "Quintile 3",
-                "Quintile 4",
-                "Quintile 5 (ຮັ່ງມີທີ່ສຸດ)"
-              ]
-            },
-            "title": "ລາຍໄດ້ ຫຼື ຄວາມຮັ່ງມີ quantile"
+            "title": "SDG Series"
           },
           {
             "name": "REF_AREA",
@@ -41,9 +31,31 @@
             "title": "ເຂດອ້າງອີງ"
           },
           {
-            "name": "SERIES",
+            "name": "URBANISATION",
             "type": "string",
-            "title": "SDG Series"
+            "constraints": {
+              "enum": [
+                "ຕົວເມືອງ",
+                "ຊົນນະບົດ",
+                ""
+              ]
+            },
+            "title": "ລະດັບການເມືອງ"
+          },
+          {
+            "name": "INCOME_WEALTH_QUANTILE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Quintile 1 (ທຸກຍາກທີ່ສຸດ)",
+                "Quintile 2",
+                "Quintile 3",
+                "Quintile 4",
+                "Quintile 5 (ຮັ່ງມີທີ່ສຸດ)",
+                ""
+              ]
+            },
+            "title": "ລາຍໄດ້ ຫຼື ຄວາມຮັ່ງມີ quantile"
           },
           {
             "name": "UNIT_MEASURE",
@@ -51,26 +63,14 @@
             "title": "ຫນ່ວຍງານວັດແທກ"
           },
           {
-            "name": "URBANISATION",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "ຊົນນະບົດ",
-                "ຕົວເມືອງ"
-              ]
-            },
-            "title": "ລະດັບການເມືອງ"
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
           }
         ]
       }

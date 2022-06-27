@@ -11,23 +11,14 @@
       "schema": {
         "fields": [
           {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "ອາຍຸຕ່ໍາກວ່າ 15 ປີ",
-                "15 ຫາ 24 ປີ",
-                "55 ຫາ 64 ປີ",
-                "65 ປີແລະຫຼາຍກວ່າ"
-              ]
-            },
-            "title": "ອາຍຸ"
+            "name": "Year",
+            "type": "integer",
+            "title": "ປີ"
           },
           {
-            "name": "GeoCode",
-            "type": "number",
-            "title": "GeoCode"
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
           },
           {
             "name": "REF_AREA",
@@ -40,21 +31,42 @@
             "title": "ເຂດອ້າງອີງ"
           },
           {
-            "name": "SERIES",
-            "type": "string",
-            "title": "SDG Series"
-          },
-          {
             "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
+                "ຜູ້ຊາຍ",
                 "ຜູ້ຍິງ",
-                "ຜູ້ຊາຍ"
+                ""
               ]
             },
             "title": "ເພດ"
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ອາຍຸຕ່ໍາກວ່າ 15 ປີ",
+                "15 ຫາ 24 ປີ",
+                "55 ຫາ 64 ປີ",
+                "65 ປີແລະຫຼາຍກວ່າ",
+                ""
+              ]
+            },
+            "title": "ອາຍຸ"
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ຕົວເມືອງ",
+                "ຊົນນະບົດ",
+                ""
+              ]
+            },
+            "title": "ລະດັບການເມືອງ"
           },
           {
             "name": "UNIT_MEASURE",
@@ -62,26 +74,14 @@
             "title": "ຫນ່ວຍງານວັດແທກ"
           },
           {
-            "name": "URBANISATION",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "ຊົນນະບົດ",
-                "ຕົວເມືອງ"
-              ]
-            },
-            "title": "ລະດັບການເມືອງ"
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
           }
         ]
       }

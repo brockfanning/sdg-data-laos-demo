@@ -11,21 +11,14 @@
       "schema": {
         "fields": [
           {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "0-2 ປີ",
-                "ອາຍຸ 3-4 ປີ"
-              ]
-            },
-            "title": "ອາຍຸ"
+            "name": "Year",
+            "type": "integer",
+            "title": "ປີ"
           },
           {
-            "name": "GeoCode",
-            "type": "number",
-            "title": "GeoCode"
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
           },
           {
             "name": "REF_AREA",
@@ -38,9 +31,16 @@
             "title": "ເຂດອ້າງອີງ"
           },
           {
-            "name": "SERIES",
+            "name": "AGE",
             "type": "string",
-            "title": "SDG Series"
+            "constraints": {
+              "enum": [
+                "0-2 ປີ",
+                "ອາຍຸ 3-4 ປີ",
+                ""
+              ]
+            },
+            "title": "ອາຍຸ"
           },
           {
             "name": "UNIT_MEASURE",
@@ -48,14 +48,14 @@
             "title": "ຫນ່ວຍງານວັດແທກ"
           },
           {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
           }
         ]
       }

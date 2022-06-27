@@ -11,9 +11,14 @@
       "schema": {
         "fields": [
           {
-            "name": "GeoCode",
-            "type": "number",
-            "title": "GeoCode"
+            "name": "Year",
+            "type": "integer",
+            "title": "ປີ"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
           },
           {
             "name": "REF_AREA",
@@ -26,18 +31,13 @@
             "title": "ເຂດອ້າງອີງ"
           },
           {
-            "name": "SERIES",
-            "type": "string",
-            "title": "SDG Series"
-          },
-          {
             "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
                 "ຜູ້ຍິງ",
-                "ຜູ້ຊາຍ"
+                "ຜູ້ຊາຍ",
+                ""
               ]
             },
             "title": "ເພດ"
@@ -48,14 +48,14 @@
             "title": "ຫນ່ວຍງານວັດແທກ"
           },
           {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
           }
         ]
       }

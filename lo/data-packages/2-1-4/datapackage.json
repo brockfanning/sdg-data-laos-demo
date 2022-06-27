@@ -11,23 +11,14 @@
       "schema": {
         "fields": [
           {
-            "name": "GeoCode",
-            "type": "number",
-            "title": "GeoCode"
+            "name": "Year",
+            "type": "integer",
+            "title": "ປີ"
           },
           {
-            "name": "PRODUCT",
+            "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "ສາລີ",
-                "ເຂົ້າ",
-                "ຊີ້ນ ແລະ ປາ",
-                "ຜັກ"
-              ]
-            },
-            "title": "ປະເພດຜະລິດຕະພັນ"
+            "title": "SDG Series"
           },
           {
             "name": "REF_AREA",
@@ -40,9 +31,18 @@
             "title": "ເຂດອ້າງອີງ"
           },
           {
-            "name": "SERIES",
+            "name": "PRODUCT",
             "type": "string",
-            "title": "SDG Series"
+            "constraints": {
+              "enum": [
+                "ເຂົ້າ",
+                "ສາລີ",
+                "ຜັກ",
+                "ຊີ້ນ ແລະ ປາ",
+                ""
+              ]
+            },
+            "title": "ປະເພດຜະລິດຕະພັນ"
           },
           {
             "name": "UNIT_MEASURE",
@@ -50,14 +50,14 @@
             "title": "ຫນ່ວຍງານວັດແທກ"
           },
           {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
           }
         ]
       }

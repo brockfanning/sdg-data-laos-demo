@@ -11,22 +11,14 @@
       "schema": {
         "fields": [
           {
-            "name": "ACTIVITY",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "ກະສິກໍາ, ປ່າໄມ້ ແລະ ການຫາປາ",
-                "ອຸດສາຫະກໍາ",
-                "ການບໍລິການ"
-              ]
-            },
-            "title": "ກິດຈະກໍາເສດຖະກິດ"
+            "name": "Year",
+            "type": "integer",
+            "title": "ປີ"
           },
           {
-            "name": "GeoCode",
-            "type": "number",
-            "title": "GeoCode"
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
           },
           {
             "name": "REF_AREA",
@@ -39,21 +31,29 @@
             "title": "ເຂດອ້າງອີງ"
           },
           {
-            "name": "SERIES",
-            "type": "string",
-            "title": "SDG Series"
-          },
-          {
             "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
+                "ຜູ້ຊາຍ",
                 "ຜູ້ຍິງ",
-                "ຜູ້ຊາຍ"
+                ""
               ]
             },
             "title": "ເພດ"
+          },
+          {
+            "name": "ACTIVITY",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ກະສິກໍາ, ປ່າໄມ້ ແລະ ການຫາປາ",
+                "ອຸດສາຫະກໍາ",
+                "ການບໍລິການ",
+                ""
+              ]
+            },
+            "title": "ກິດຈະກໍາເສດຖະກິດ"
           },
           {
             "name": "UNIT_MEASURE",
@@ -61,14 +61,14 @@
             "title": "ຫນ່ວຍງານວັດແທກ"
           },
           {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
           }
         ]
       }
