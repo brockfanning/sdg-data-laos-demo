@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "12-8-1",
+  "title": "(ຂ) ການສຶກສາອົບຮົມພົນລະເມືອງທົ່ວໂລກແລະ (ii) ການສຶກສາເພື່ອການພັດທະນາແບບຍືນຍົງ (ລວມທັງການສຶກສາການປ່ຽນແປງດິນຟ້າອາກາດ) ໄດ້ຖືກເຊື່ອມໂຍງເຂົ້າໃນ (ກ) ນະໂຍບາຍການສຶກສາແຫ່ງຊາດ; (b) ຫຼັກສູດ; (c) ການສ້າງຄູ; ແລະ (d) ການປະເມີນນັກຮຽນ"
+}

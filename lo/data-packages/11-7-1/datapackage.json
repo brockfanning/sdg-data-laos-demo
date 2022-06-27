@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "11-7-1",
+  "title": "ສ່ວນແບ່ງສະເລ່ຍຂອງພື້ນທີ່ທີ່ສ້າງຂຶ້ນຂອງຕົວເມືອງທີ່ເປັນບ່ອນເປີດກວ້າງ ສຳ ລັບການ ນຳ ໃຊ້ສາທາລະນະ ສຳ ລັບທຸກຄົນ, ໂດຍເພດ, ອາຍຸແລະຄົນພິການ"
+}

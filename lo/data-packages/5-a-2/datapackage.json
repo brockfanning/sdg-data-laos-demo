@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "5-a-2",
+  "title": "ອັດຕາສ່ວນຂອງປະເທດທີ່ກອບກົດ ໝາຍ (ລວມທັງກົດ ໝາຍ ປະເພນີ) ຮັບປະກັນສິດທິເທົ່າທຽມກັນຂອງແມ່ຍິງໃນການເປັນເຈົ້າຂອງທີ່ດິນແລະ / ຫຼືຄວບຄຸມ"
+}

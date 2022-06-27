@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "16-3-1",
+  "title": "ອັດຕາສ່ວນຂອງຜູ້ຖືກເຄາະຮ້າຍຈາກຄວາມຮຸນແຮງໃນ 12 ເດືອນທີ່ຜ່ານມາຜູ້ທີ່ໄດ້ລາຍງານຜູ້ຖືກເຄາະຮ້າຍຂອງຕົນຕໍ່ເຈົ້າ ໜ້າ ທີ່ທີ່ມີຄວາມສາມາດຫຼືກົນໄກການແກ້ໄຂຂໍ້ຂັດແຍ່ງອື່ນໆທີ່ຖືກຮັບຮູ້ຢ່າງເປັນທາງການ"
+}

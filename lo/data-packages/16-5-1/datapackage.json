@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "16-5-1",
+  "title": "ອັດຕາສ່ວນຂອງຜູ້ທີ່ມີການພົວພັນກັບເຈົ້າ ໜ້າ ທີ່ສາທາລະນະຢ່າງ ໜ້ອຍ ໜຶ່ງ ຄັ້ງແລະຜູ້ທີ່ຈ່າຍເງິນສິນບົນໃຫ້ເຈົ້າ ໜ້າ ທີ່ສາທາລະນະ, ຫຼືຖືກຂໍໃຫ້ຮັບສິນບົນຈາກເຈົ້າ ໜ້າ ທີ່ສາທາລະນະເຫຼົ່ານັ້ນ, ໃນໄລຍະ 12 ເດືອນທີ່ຜ່ານມາ"
+}

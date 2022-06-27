@@ -12,22 +12,32 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
-            "name": "Group",
-            "type": "string",
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
             "constraints": {
               "enum": [
-                "A",
-                "B",
                 ""
               ]
             }
           },
           {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "GeoCode",
+            "type": "number"
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }
@@ -35,5 +45,5 @@
   ],
   "profile": "data-package",
   "name": "1-1-1",
-  "title": "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)"
+  "title": "global_indicators.1-1-1-title"
 }

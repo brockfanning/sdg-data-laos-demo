@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "1-3-1",
+  "title": "ອັດຕາສ່ວນຂອງປະຊາກອນທີ່ປົກຄຸມດ້ວຍຊັ້ນ / ລະບົບປົກປ້ອງທາງສັງຄົມ, ໂດຍເພດ, ຈຳ ແນກເດັກ, ຄົນຫວ່າງງານ, ຜູ້ສູງອາຍຸ, ຄົນພິການ, ແມ່ຍິງຖືພາ, ເດັກເກີດ ໃໝ່, ຜູ້ຖືກເຄາະຮ້າຍຈາກການເຮັດວຽກແລະຜູ້ທຸກຍາກແລະຜູ້ດ້ອຍໂອກາດ"
+}

@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "15-9-1",
+  "title": "ຄວາມຄືບ ໜ້າ ໄປສູ່ເປົ້າ ໝາຍ ແຫ່ງຊາດທີ່ຖືກສ້າງຕັ້ງຂື້ນໂດຍສອດຄ່ອງກັບເປົ້າ ໝາຍ ຊີວະນາໆພັນ Aichi 2 ຂອງແຜນຍຸດທະສາດກ່ຽວກັບຊີວະນາໆພັນ 2011-2020"
+}

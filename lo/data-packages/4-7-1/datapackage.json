@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "4-7-1",
+  "title": "ຂອບເຂດທີ່ (i) ການສຶກສາອົບຮົມພົນລະເມືອງທົ່ວໂລກແລະ (ii) ການສຶກສາເພື່ອການພັດທະນາແບບຍືນຍົງ, ລວມທັງຄວາມສະ ເໝີ ພາບລະຫວ່າງຍິງ - ຊາຍແລະສິດທິມະນຸດ, ໄດ້ຖືກ ນຳ ເຂົ້າເປັນຫລັກໃນທຸກລະດັບໃນ (a) ນະໂຍບາຍການສຶກສາແຫ່ງຊາດ; (b) ຫຼັກສູດ; (c) ການສ້າງຄູ; ແລະ (d) ການປະເມີນນັກຮຽນ"
+}

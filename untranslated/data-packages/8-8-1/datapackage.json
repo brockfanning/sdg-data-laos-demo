@@ -12,11 +12,32 @@
         "fields": [
           {
             "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "GeoCode",
             "type": "number"
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }
@@ -24,5 +45,5 @@
   ],
   "profile": "data-package",
   "name": "8-8-1",
-  "title": "Fatal and non-fatal occupational injuries per 100,000 workers, by sex and migrant status"
+  "title": "global_indicators.8-8-1-title"
 }

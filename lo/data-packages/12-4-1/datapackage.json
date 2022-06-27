@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "12-4-1",
+  "title": "ຈຳ ນວນຂອງບັນດາສັນຍາກ່ຽວກັບສິ່ງແວດລ້ອມຫຼາຍຝ່າຍສາກົນກ່ຽວກັບສິ່ງເສດເຫຼືອທີ່ເປັນອັນຕະລາຍ, ແລະສານເຄມີອື່ນໆທີ່ຕອບສະ ໜອງ ກັບພັນທະແລະພັນທະໃນການສົ່ງຂໍ້ມູນຕາມທີ່ໄດ້ ກຳ ນົດໄວ້ໃນແຕ່ລະຂໍ້ຕົກລົງທີ່ກ່ຽວຂ້ອງ"
+}

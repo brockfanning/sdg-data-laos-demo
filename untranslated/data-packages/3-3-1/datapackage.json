@@ -12,11 +12,32 @@
         "fields": [
           {
             "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "GeoCode",
             "type": "number"
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }
@@ -24,5 +45,5 @@
   ],
   "profile": "data-package",
   "name": "3-3-1",
-  "title": "Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations"
+  "title": "global_indicators.3-3-1-title"
 }

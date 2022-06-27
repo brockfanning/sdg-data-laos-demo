@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "12-a-1",
+  "title": "ຈຳ ນວນເງິນສະ ໜັບ ສະ ໜູນ ໃຫ້ແກ່ບັນດາປະເທດ ກຳ ລັງພັດທະນາກ່ຽວກັບການຄົ້ນຄວ້າແລະການພັດທະນາເພື່ອການຊົມໃຊ້ແລະການຜະລິດທີ່ຍືນຍົງແລະເຕັກໂນໂລຢີທີ່ເປັນມິດກັບສິ່ງແວດລ້ອມ"
+}

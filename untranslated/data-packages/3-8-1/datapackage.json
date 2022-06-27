@@ -12,6 +12,27 @@
         "fields": [
           {
             "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "GeoCode",
             "type": "number"
           },
           {
@@ -24,5 +45,5 @@
   ],
   "profile": "data-package",
   "name": "3-8-1",
-  "title": "Coverage of essential health services"
+  "title": "global_indicators.3-8-1-title"
 }

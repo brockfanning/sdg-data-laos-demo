@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "12-1-1",
+  "title": "ຈຳ ນວນປະເທດທີ່ມີແຜນກິດຈະ ກຳ ການຜະລິດແລະການຜະລິດແບບຍືນຍົງ (SCP) ຫລືແຜນປະຕິບັດງານແຫ່ງຊາດທີ່ໄດ້ຮັບການບູລິມະສິດເປັນບູລິມະສິດຫຼືເປົ້າ ໝາຍ ໃນນະໂຍບາຍແຫ່ງຊາດ"
+}

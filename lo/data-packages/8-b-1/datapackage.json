@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "8-b-1",
+  "title": "ທີ່ມີຢູ່ແລ້ວຂອງຍຸດທະສາດແຫ່ງຊາດທີ່ພັດທະນາແລະປະຕິບັດງານ ສຳ ລັບການຈ້າງງານຊາວ ໜຸ່ມ, ເປັນຍຸດທະສາດທີ່ແຕກຕ່າງກັນຫຼືເປັນສ່ວນ ໜຶ່ງ ຂອງຍຸດທະສາດການຈ້າງງານແຫ່ງຊາດ"
+}

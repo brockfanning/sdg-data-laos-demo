@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "16-5-2",
+  "title": "ອັດຕາສ່ວນຂອງທຸລະກິດທີ່ມີການຕິດຕໍ່ຢ່າງ ໜ້ອຍ ໜຶ່ງ ຄັ້ງກັບເຈົ້າ ໜ້າ ທີ່ລັດແລະການຈ່າຍເງິນໃຫ້ເຈົ້າ ໜ້າ ທີ່ສາທາລະນະ, ຫຼືຖືກຮຽກຮ້ອງໃຫ້ມີການໃຫ້ສິນບົນຈາກເຈົ້າ ໜ້າ ທີ່ລັດໃນໄລຍະ 12 ເດືອນທີ່ຜ່ານມາ"
+}

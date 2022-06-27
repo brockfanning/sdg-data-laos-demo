@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "9-a-1",
+  "title": "ລວມການສະ ໜັບ ສະ ໜູນ ຈາກສາກົນຢ່າງເປັນທາງການ (ການຊ່ວຍເຫຼືອທາງການເພື່ອການພັດທະນາບວກກັບກະແສທາງການອື່ນໆ) ຕໍ່ພື້ນຖານໂຄງລ່າງ"
+}

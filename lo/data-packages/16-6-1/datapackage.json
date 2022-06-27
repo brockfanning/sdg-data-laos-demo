@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "16-6-1",
+  "title": "ການໃຊ້ຈ່າຍຂອງລັດຖະບານຂັ້ນຕົ້ນເປັນອັດຕາສ່ວນຂອງງົບປະມານທີ່ໄດ້ຮັບການອະນຸມັດຂັ້ນຕົ້ນ, ຕາມຂະ ແໜງ ການ (ຫລືໂດຍລະຫັດງົບປະມານຫລືຄ້າຍຄືກັນ)"
+}

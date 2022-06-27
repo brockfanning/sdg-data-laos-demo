@@ -12,6 +12,27 @@
         "fields": [
           {
             "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "GeoCode",
             "type": "number"
           },
           {
@@ -24,5 +45,5 @@
   ],
   "profile": "data-package",
   "name": "5-5-1",
-  "title": "Proportion of seats held by women in (a) national parliaments and (b) local governments"
+  "title": "global_indicators.5-5-1-title"
 }

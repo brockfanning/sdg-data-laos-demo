@@ -12,6 +12,27 @@
         "fields": [
           {
             "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "GeoCode",
             "type": "number"
           },
           {
@@ -24,5 +45,5 @@
   ],
   "profile": "data-package",
   "name": "4-b-1",
-  "title": "Volume of official development assistance flows for scholarships by sector and type of study"
+  "title": "global_indicators.4-b-1-title"
 }

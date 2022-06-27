@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "16-b-1",
+  "title": "ອັດຕາສ່ວນຂອງປະຊາກອນທີ່ລາຍງານວ່າມີຄວາມຮູ້ສຶກແບ່ງແຍກຫຼືຖືກລົບກວນໃນ 12 ເດືອນຜ່ານມາບົນພື້ນຖານຂອງການ ຈຳ ແນກທີ່ຖືກຫ້າມພາຍໃຕ້ກົດ ໝາຍ ສິດທິມະນຸດສາກົນ."
+}

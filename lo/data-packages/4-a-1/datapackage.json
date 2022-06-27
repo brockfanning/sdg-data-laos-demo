@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "4-a-1",
+  "title": "ອັດຕາສ່ວນຂອງໂຮງຮຽນທີ່ມີການເຂົ້າເຖິງ (a) ໄຟຟ້າ; (b) ອິນເຕີເນັດ ສຳ ລັບຈຸດປະສົງສ້າງຄູ; (c) ຄອມພິວເຕີເພື່ອຈຸດປະສົງສ້າງຄູ; (ງ) ປັບປຸງພື້ນຖານໂຄງລ່າງແລະວັດສະດຸ ສຳ ລັບນັກຮຽນພິການ; (e) ນ້ ຳ ດື່ມພື້ນຖານ; (f) ພື້ນຖານດ້ານສຸຂາພິບານຂັ້ນພື້ນຖານຂອງເພດດຽວ; ແລະ (ຊ) ສິ່ງ ອຳ ນວຍຄວາມສະດວກໃນການລ້າງມືຂັ້ນພື້ນຖານ (ຕາມ ຄຳ ນິຍາມຂອງຕົວຊີ້ວັດ WASH)"
+}

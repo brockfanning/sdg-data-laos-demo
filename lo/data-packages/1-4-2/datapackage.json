@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "1-4-2",
+  "title": "ອັດຕາສ່ວນຂອງພົນລະເມືອງຜູ້ໃຫຍ່ທັງ ໝົດ ທີ່ມີສິດຄອບຄອງ ນຳ ໃຊ້ທີ່ດິນ, ມີເອກະສານທີ່ຖືກຮັບຮູ້ຢ່າງຖືກຕ້ອງຕາມກົດ ໝາຍ, ແລະຜູ້ທີ່ເຫັນວ່າສິດຂອງເຂົາເຈົ້າທີ່ດິນມີຄວາມປອດໄພ, ເພດແລະປະເພດຂອງສິດຄອບຄອງ ນຳ ໃຊ້"
+}

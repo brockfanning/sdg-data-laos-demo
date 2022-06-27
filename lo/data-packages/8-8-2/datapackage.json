@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "8-8-2",
+  "title": "ລະດັບຂອງການປະຕິບັດຕາມລະດັບຊາດກັບສິດທິແຮງງານ (ເສລີພາບໃນການເຂົ້າຮ່ວມແລະການຕໍ່ລອງລວມ ໝູ່) ໂດຍອີງໃສ່ແຫຼ່ງຂໍ້ມູນຕົວ ໜັງ ສືແລະກົດ ໝາຍ ລະຫວ່າງຊາດຂອງອົງການແຮງງານສາກົນ, ໂດຍເພດແລະການຍົກຍ້າຍຖິ່ນຖານ"
+}

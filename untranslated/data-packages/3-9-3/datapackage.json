@@ -12,6 +12,27 @@
         "fields": [
           {
             "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "GeoCode",
             "type": "number"
           },
           {
@@ -24,5 +45,5 @@
   ],
   "profile": "data-package",
   "name": "3-9-3",
-  "title": "Mortality rate attributed to unintentional poisoning"
+  "title": "global_indicators.3-9-3-title"
 }

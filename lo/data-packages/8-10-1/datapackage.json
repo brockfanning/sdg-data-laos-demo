@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "8-10-1",
+  "title": "(ກ) ຈຳ ນວນສາຂາທະນາຄານທຸລະກິດຕໍ່ຜູ້ໃຫຍ່ 100,000 ຄົນແລະ (ຂ) ຈຳ ນວນເຄື່ອງຈັກອັດຕະໂນມັດ (ຕູ້ ATM) ຕໍ່ຜູ້ໃຫຍ່ 100,000 ຄົນ"
+}

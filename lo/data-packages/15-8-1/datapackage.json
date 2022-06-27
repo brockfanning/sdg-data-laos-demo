@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "15-8-1",
+  "title": "ສັດສ່ວນຂອງບັນດາປະເທດທີ່ຮັບຮອງເອົານິຕິ ກຳ ແຫ່ງຊາດທີ່ກ່ຽວຂ້ອງແລະມີປະໂຫຍດຢ່າງພຽງພໍໃນການປ້ອງກັນຫຼືຄວບຄຸມຊະນິດພັນຕ່າງດາວທີ່ມີການບຸກລຸກ"
+}

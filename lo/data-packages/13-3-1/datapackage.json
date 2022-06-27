@@ -1,0 +1,30 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "13-3-1",
+  "title": "ຈຳ ນວນປະເທດທີ່ມີການຫຼຸດຜ່ອນ, ການປັບຕົວ, ການຫຼຸດຜ່ອນຜົນກະທົບແລະການເຕືອນໄພລ່ວງ ໜ້າ ເຂົ້າໃນຫຼັກສູດປະຖົມ, ມັດທະຍົມແລະຂັ້ນສາມ"
+}
